@@ -1,0 +1,57 @@
+---
+title: "Informática I"
+subtitle: "Aprende a programar en el Lenguaje de Programación Python."
+date: "today"
+author: "Lic. Diego Medardo Saavedra García Mg. Sc."
+lang: "es"
+format:
+  html: 
+    theme: dark
+    code-fold: true
+    html-math-method: katex
+    multiplex: true
+    transition: fade
+    auto-stretch: false
+    scrollable: true
+    mainfont: font-family
+    #fontcolor: blue
+    abstract: "El presente material didáctico utilizado es generado para poder aprender las bases del programación en el Lenguaje de Programación Python."
+    css: styles.css
+editor: visual
+execute: 
+  echo: true
+---
+
+[![](img/LOGO-1.png "Instituto Superior Tecnológico Juan Montalvo"){fig-align="center"}](http://www.istjm.edu.ec)
+
+# Indice
+
+## 1. Introducción al Lenguaje de Programación Python.
+
+## 2. Tipos de Datos.
+
+## 3. Control de Flujo Parte 1.
+
+## 4. Ejercicios 1.
+
+## 5. Control de Flujo Parte 2.
+
+## 6. Ejercicios 2
+
+## 7. Funciones.
+
+## 8. Programación Orientada a Objetos (POO).
+
+## 9. Módulos.
+
+## 10. Gestión de Archivos.
+
+## 11. Base de Datos 1.
+
+## 12. Base de Datos 2.
+
+## 13. Pyhon y Base de Datos.
+
+[![Licencia Creative Commons](https://i.creativecommons.org/l/by-sa/4.0/88x31.png){alt="Licencia Creative Commons"}](http://creativecommons.org/licenses/by-sa/4.0/)\
+
+El contenido de este sitio está bajo una [Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional](http://creativecommons.org/licenses/by-sa/4.0/).
