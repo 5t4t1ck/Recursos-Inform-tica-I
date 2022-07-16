@@ -6,29 +6,24 @@ author: "Lic. Diego Medardo Saavedra García Mg. Sc."
 lang: "es"
 format:
   revealjs:
-    scrollable: true
-    chalkboard: 
-      buttons: false
+    #chalkboard: 
+      #buttons: false
     #toc: true
     incremental: false
     slide-number: true
     preview-links: auto
-    logo: img/favicon-50x56.png
+    logo: img/LOGO-1.png
     css: styles.css
-    footer: <https://abacom.edu.ec>
+    footer: <http://www.istjm.edu.ec>
     theme: dark
     makeindex: true
     #multiplex: true
     transition: fade
-    chalkboard: false #Pizarra
+    chalkboard: true #Pizarra
     auto-stretch: false
-
-  #html: 
-    #code-fold: true
-    #html-math-method: katex
-    #multiplex: true
-    #transition: fade
-    #auto-stretch: false
+    smaller: false
+    scrollable: true
+    menu: true
 editor: visual
 execute: 
   echo: true

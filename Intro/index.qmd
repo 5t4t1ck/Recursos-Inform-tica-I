@@ -6,8 +6,9 @@ author: "Lic. Diego Medardo Saavedra García Mg. Sc."
 lang: "es"
 format:
   revealjs:
-    #toc: true
-    incremental: false
+    #chalkboard: 
+      #buttons: false
+    #toc: true    incremental: false
     slide-number: true
     preview-links: auto
     logo: img/LOGO-1.png
@@ -15,17 +16,13 @@ format:
     footer: <http://www.istjm.edu.ec>
     theme: dark
     makeindex: true
-    multiplex: true
-    transition: fade
-    chalkboard: false #Pizarra
-    auto-stretch: false
-    scrollable: true
-  #html: 
-    #code-fold: true
-    #html-math-method: katex
     #multiplex: true
-    #transition: fade
-    #auto-stretch: false
+    transition: fade
+    chalkboard: true #Pizarra
+    auto-stretch: false
+    smaller: false
+    scrollable: true
+    menu: true
 editor: visual
 execute: 
   echo: true

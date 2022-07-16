@@ -6,9 +6,8 @@ author: "Lic. Diego Medardo Saavedra García Mg. Sc."
 lang: "es"
 format:
   revealjs:
-    scrollable: true
-    chalkboard: 
-      buttons: false
+    #chalkboard: 
+      #buttons: false
     #toc: true
     incremental: false
     slide-number: true
@@ -20,10 +19,12 @@ format:
     makeindex: true
     #multiplex: true
     transition: fade
-    chalkboard: false #Pizarra
+    chalkboard: true #Pizarra
     auto-stretch: false
-
-editor: visual
+    smaller: false
+    scrollable: true
+    menu: true
+    editor: visual
 execute: 
   echo: true
     

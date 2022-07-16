@@ -12,9 +12,9 @@ format:
     incremental: false
     slide-number: true
     preview-links: auto
-    logo: img/favicon-50x56.png
-    #css: styles.css
-    footer: <https://abacom.edu.ec>
+    logo: img/LOGO-1.png
+    css: styles.css
+    footer: <http://www.istjm.edu.ec>
     theme: dark
     makeindex: true
     #multiplex: true
@@ -23,15 +23,7 @@ format:
     auto-stretch: false
     smaller: false
     scrollable: true
-    presentation-title-slide-text-alig: left
-    presentation-slide-text-align: justify
-    #menu: true
-  #html: 
-    #code-fold: true
-    #html-math-method: katex
-    #multiplex: true
-    #transition: fade
-    #auto-stretch: false
+    menu: true
 editor: visual
 execute: 
   echo: true

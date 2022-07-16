@@ -19,17 +19,11 @@ format:
     makeindex: true
     #multiplex: true
     transition: fade
-    #chalkboard: true #Pizarra
+    chalkboard: true #Pizarra
     auto-stretch: false
     smaller: false
     scrollable: true
-
-  #html: 
-    #code-fold: true
-    #html-math-method: katex
-    #multiplex: true
-    #transition: fade
-    #auto-stretch: false
+    menu: true
 editor: visual
 execute: 
   echo: true
