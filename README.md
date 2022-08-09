@@ -11,7 +11,7 @@ El presente material didáctico utilizado es generado para poder aprender las ba
 
 [![](img/LOGO-1.png "Instituto Superior Tecnológico Juan Montalvo")](http://www.istjm.edu.ec)
 
-# Indice
+# [Indice](https://5t4t1ck.github.io/Recursos-Informatica-1/)
 
 ## [1. Introducción al Lenguaje de Programación Python.](https://5t4t1ck.github.io/Recursos-Informatica-1/Intro)
 
