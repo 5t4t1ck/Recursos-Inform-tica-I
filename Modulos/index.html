@@ -7,7 +7,7 @@
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.0.18">
+  <meta name="generator" content="quarto-1.0.38">
 
   <meta name="author" content="Lic. Diego Medardo Saavedra García Mg. Sc.">
   <title>Módulos.</title>
@@ -389,7 +389,7 @@
 <section id="title-slide" class="center">
   <h1 class="title">Módulos.</h1>
   <p class="author">Lic. Diego Medardo Saavedra García Mg. Sc.</p>
-  <p class="date">16/7/22</p>
+  <p class="date">9/8/22</p>
 </section>
 
 <section>
@@ -404,10 +404,12 @@
 <h2>Crea y también importa un módulo.</h2>
 <p>Veamos este ejemplo:</p>
 <p>Creamos el archivo módulos.py</p>
+<div class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a>personas <span class="op">=</span> [<span class="st">"Diego"</span>, <span class="st">"Juan"</span>, <span class="st">"Pedro"</span>, <span class="st">"María"</span>]</span>
 <span id="cb1-2"><a href="#cb1-2"></a></span>
 <span id="cb1-3"><a href="#cb1-3"></a><span class="kw">def</span> saludo(nombre):</span>
 <span id="cb1-4"><a href="#cb1-4"></a>  <span class="bu">print</span>(<span class="st">"Hola"</span>, nombre)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <p>Ahora creamos otro archivo modulo-1.py</p>
 <div class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="co">"""</span></span>
@@ -721,7 +723,10 @@
         }
       }
       const toggleBodyColorPrimary = () => {
-        toggleBodyColorMode(window.document.querySelector("link#quarto-bootstrap"));
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
       }
       toggleBodyColorPrimary();  
       const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")

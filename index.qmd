@@ -28,7 +28,7 @@ execute:
 
 ## [1. Introducción al Lenguaje de Programación Python.](https://5t4t1ck.github.io/Recursos-Informatica-1/Intro)
 
-## [2. Tipos de Datos en Python.](https://5t4t1ck.github.io/Recursos-Informatica-1/Ttipos_de_datos/)
+## [2. Tipos de Datos en Python.](https://5t4t1ck.github.io/Recursos-Informatica-1/Tipos_de_Datos/)
 
 ## [3. Control de Flujo Parte 1.](https://5t4t1ck.github.io/Recursos-Informatica-1/Control_de_Flujo_parte_1/)
 
@@ -40,11 +40,11 @@ execute:
 
 ## [9. Módulos.](https://5t4t1ck.github.io/Recursos-Informatica-1/Modulos/)
 
-## [10. Gestión de Archivos.](https://5t4t1ck.github.io/Recursos-Informatica-1/Gestion_de_Archivos/)
+## [10. Gestión de Archivos.](https://5t4t1ck.github.io/Recursos-Informatica-1/Gestion_de_archivos/)
 
-## [11. Base de Datos 1.](https://5t4t1ck.github.io/Recursos-Informatica-1/Base_de_datos_1/)
+## [11. Base de Datos 1.](https://5t4t1ck.github.io/Recursos-Informatica-1/Bases_de_datos_1/)
 
-## [12. Base de Datos 2.](https://5t4t1ck.github.io/Recursos-Informatica-1/Base_de_datos_2/)
+## [12. Base de Datos 2.](https://5t4t1ck.github.io/Recursos-Informatica-1/Bases_de_datos_2/)
 
 ## [13. Pyhon y Base de Datos.](https://5t4t1ck.github.io/Recursos-Informatica-1/Base_de_Datos_con_python/)
 

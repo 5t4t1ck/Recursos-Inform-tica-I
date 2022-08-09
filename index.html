@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.18">
+<meta name="generator" content="quarto-1.0.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -60,7 +60,7 @@ ul.task-list{list-style: none;}
     <div>
     <div class="quarto-title-meta-heading">Fecha de Publicación</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">16 de julio de 2022</p>
+      <p class="date">9 de agosto de 2022</p>
     </div>
   </div>
     
@@ -86,7 +86,7 @@ ul.task-list{list-style: none;}
 <h2 class="anchored" data-anchor-id="introducción-al-lenguaje-de-programación-python."><a href="https://5t4t1ck.github.io/Recursos-Informatica-1/Intro">1. Introducción al Lenguaje de Programación Python.</a></h2>
 </section>
 <section id="tipos-de-datos-en-python." class="level2">
-<h2 class="anchored" data-anchor-id="tipos-de-datos-en-python."><a href="https://5t4t1ck.github.io/Recursos-Informatica-1/Ttipos_de_datos/">2. Tipos de Datos en Python.</a></h2>
+<h2 class="anchored" data-anchor-id="tipos-de-datos-en-python."><a href="https://5t4t1ck.github.io/Recursos-Informatica-1/Tipos_de_datos/">2. Tipos de Datos en Python.</a></h2>
 </section>
 <section id="control-de-flujo-parte-1." class="level2">
 <h2 class="anchored" data-anchor-id="control-de-flujo-parte-1."><a href="https://5t4t1ck.github.io/Recursos-Informatica-1/Control_de_Flujo_parte_1/">3. Control de Flujo Parte 1.</a></h2>
@@ -145,7 +145,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   const toggleBodyColorPrimary = () => {
-    toggleBodyColorMode(window.document.querySelector("link#quarto-bootstrap"));
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
   }
   toggleBodyColorPrimary();  
   const icon = "";
